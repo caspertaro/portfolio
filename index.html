@@ -2,7 +2,7 @@
 <html>
 <head>
   <title>Casper Taro portfolio</title>
-  <link rel="icon" href="Graphics/Logo.png">
+  <link rel="icon" href="me.jpg">
   <style type="text/css">
 
 body {
@@ -37,43 +37,36 @@ a {
 .menulist {
   list-style-type: none;
   margin: 0px;
-  margin-top: 0%;
+  margin-top: 0px;
   padding: 0;
   width: 120px;
   background-color: #F3F9D2;
   position: fixed;
   top: 10px;
-  height: 310px;
+  height: 235px;
   overflow: hidden;
 }
 
 li a {
   display: block;
-  color: #000;
-  padding: 8px 16px;
-  text-decoration: none;
+  color: #2A9D8F;
 }
 
-li a.active {
-  background-color: #407899;
-  color: rgb(255, 255, 255);
-}
 
 li a:hover:not(.active) {
-  background-color: #684551;
-  color: white;
+  background-color: #9C3848;
+  color: #F3F9D2;
+}
+
+li img {
+  position: absolute;
+  top: 125px;
+  left: 10px;
+  
 }
 
 
 
-
-
-/* below is logo pictures css stuff */
-.topBar {
-  position: relative;
-  left: 130px;
-  width: 80%;
-}
 
 
 
@@ -86,7 +79,7 @@ li a:hover:not(.active) {
 
 /* below is flexbox stuff*/
 .container{
-  background-color: #CEA0AE;
+  background-color: #9C3848;
   display: flex;
   justify-content: space-evenly;
   align-items: center;
@@ -118,7 +111,7 @@ li a:hover:not(.active) {
 
 
 
-.model-viewer {
+.yt-video {
   background-color: #F3F9D2;
   height: 100%;
   width: 100%;
@@ -137,73 +130,68 @@ li a:hover:not(.active) {
   <!-- Shift + cmd 7 på highligtede ting for at commente dem ud! .... på mac kun -->
   <!-- clas="active" definerer hvilken side man er på atm-->
   <ul class="menulist">
-    <a style="font-size: 25px; font-style: oblique; color: #2A9D8F;">Casper Taro</a>
-    <li><img src="me.png" style="width: 100px; align-items: center;"/></li>
-    <li><a href="https://twitter.com/caspertaro">Twitter</a></li>
-    <li><a class="active" href="index.html"><img src="Graphics/HomeMenuIcon.png" style="width: 100px;"/></a></li>
-    <li><a href="contact.html"><img src="Graphics/ContactMenuIcon.png" style="width: 100px;"/></a></li>
+    <a style="font-size: 25px; color: #2A9D8F;"><b>Casper Taro</b></a>
+    <a>.</a>
+    <li><a style="font-size: 25px; margin-top: 10px;" href="https://twitter.com/caspertaro"><b>Twitter</b></a></li>
+    <li><img src="Avatar.png" style="width: 100px; align-items: center;"/></li>
+    
   </ul>
 
 
-
-  <h1 style="color: #F3F9D2; text-align: center; border: 5px solid #F3F9D2; position: fixed; top: 0px; left: 130px; width: 420px; margin-top: 10px;">Portfolio</h1>
-
-
-  <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-  <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+<h1 style="color: #F3F9D2; text-align: center; border: 5px solid #F3F9D2; position: fixed; top: 0px; left: 130px; width: 420px; margin-top: 10px;">Portfolio</h1>
+<br><br><br><br><br><br><br>
 
 
 
 
 
-
-
-
-
-
-<!-- Tape1 LEFT-->
 <div class="container">
   <div class="item1">
-    <img src="Graphics/ComingSoon.jpg" style="width: 300px; height: 300px;">
-    <p style="color: white; font-size: medium; text-align: center;">Tape1 by Needles - March 2023</p>
+    <p style="color: white; font-size: medium; text-align: center;">Text about the thing on the right, short and simple, credits <br> and such things as such</p>
   </div>
   <div class="item2">
-    <div class="model-viewer" style="overflow-x: hidden;">
-      <model-viewer disable-tap camera-controls auto-rotate disable-zoom touch-action="pan-y" src="3Dmodels/Tape1.glb" ar ios-src="3Dmodels/Tape1.usdz" alt="3D model of Tape1 cassette" style="background-color: unset; width:100%; height:100%;"></model-viewer>
+    <div class="yt-video" style="overflow-x: hidden;">
+      <iframe width="100%" height="70%" src="https://www.youtube.com/embed/3c7ZTTuFOuI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
     </div>
   </div>
 </div>
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 
+
+
+
+
+
+
+
+<div class="container">
+  <div class="item2">
+    <div class="yt-video" style="overflow-x: hidden;">
+      <iframe width="100%" height="70%" src="https://www.youtube.com/embed/3c7ZTTuFOuI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    </div>
+  </div>
+  <div class="item1">
+    <p style="color: white; font-size: medium; text-align: center;">Text about the thing on the right, short and simple, credits <br> and such things as such</p>
+  </div>
+</div>
 <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 
-<!-- Fed Stil Flotte Krøller RIGHT-->
-<div class="container">
-  <div class="item2">
-    <div class="model-viewer" style="overflow-x: hidden;">
-      <model-viewer disable-tap camera-controls auto-rotate disable-zoom touch-action="pan-y" src="3Dmodels/FedStilFlotteKrøller.glb" ar ios-src="3Dmodels/RoomsTape.usdz" alt="3D model of Fed Stil Flotte Krøller cassette" style="background-color: unset; width:100%; height:100%;"></model-viewer>
-    </div>
-  </div>
-  <div class="item1">
-    <iframe id="glow" style="border: 0; width: 300px; height: 300px;" src="https://bandcamp.com/EmbeddedPlayer/album=3516848554/size=large/bgcol=ffffff/linkcol=f171a2/minimal=true/transparent=true/" seamless><a href="https://bastianb.bandcamp.com/album/fed-stil-flotte-kr-ller">Fed Stil Flotte Krøller by Bastian</a></iframe>
-    <p style="color: white; font-size: medium; text-align: center;">Fed Stil Flotte Krøller by Bastian - December 2018</p>
-  </div>
-</div>
 
-  <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 
-<!-- Rooms LEFT-->
+
+
+
 <div class="container">
   <div class="item1">
     <iframe id="glow" style="border: 0; width: 300px; height: 300px;" src="https://bandcamp.com/EmbeddedPlayer/album=4202013616/size=large/bgcol=ffffff/linkcol=e99708/minimal=true/transparent=true/" seamless><a href="https://campingplads.bandcamp.com/album/rooms-2">Rooms by Needles</a></iframe>
     <p style="color: white; font-size: medium; text-align: center;">Rooms by Needles - July 2021</p>
   </div>
   <div class="item2">
-    <div class="model-viewer" style="overflow-x: hidden;">
-      <model-viewer disable-tap camera-controls auto-rotate disable-zoom touch-action="pan-y" src="3Dmodels/RoomsTape2.glb" ar ios-src="3Dmodels/RoomsTape2.usdz" alt="3D model of Rooms cassette" style="background-color: unset; width:100%; height:100%;"></model-viewer>
+    <div class="yt-video" style="overflow-x: hidden;">
+      <iframe width="100%" height="70%" src="https://www.youtube.com/embed/3c7ZTTuFOuI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
     </div>
   </div>
 </div>
-
 <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 
 
